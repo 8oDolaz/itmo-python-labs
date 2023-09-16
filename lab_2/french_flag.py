@@ -1,5 +1,4 @@
-def esc(code):
-    return f'\u001b[{code}m'
+from config import RED, BLUE, WHITE, END
 
 def draw_flag():
     strip_length, flag_length = 7, 5
@@ -11,9 +10,4 @@ def draw_flag():
     print('\n'.join(flag))
 
 if __name__ == '__main__':
-    RED = esc(41)
-    BLUE = esc(44)
-    WHITE = esc(47)
-    END = esc(0)
-
     draw_flag()

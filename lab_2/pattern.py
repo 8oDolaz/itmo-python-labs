@@ -1,7 +1,6 @@
-import argparse
+from config import WHITE, BLACK, END
 
-def esc(code):
-    return f'\u001b[{code}m'
+import argparse
 
 def draw_pattern(size=3):
     colors = [WHITE, BLACK]
@@ -19,10 +18,6 @@ def draw_pattern(size=3):
     print('\n'.join(pattern))
 
 if __name__ == '__main__':
-    BLACK = esc(40)
-    WHITE = esc(47)
-    END = esc(0)
-
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '-s', '--size', 
