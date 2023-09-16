@@ -1,8 +1,10 @@
+import argparse
+
 def esc(code):
     return f'\u001b[{code}m'
 
 def draw_pattern(size=3):
-    colors = [BLACK, WHITE]
+    colors = [WHITE, BLACK]
 
     pattern = []
     for i in range(size):
@@ -21,4 +23,12 @@ if __name__ == '__main__':
     WHITE = esc(47)
     END = esc(0)
 
-    draw_pattern(5)
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '-s', '--size', 
+        default=3, type=int, help='Pattern square size'
+    )
+
+    size = parser.parse_args().size
+
+    draw_pattern(size)
