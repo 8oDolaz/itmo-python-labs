@@ -1,6 +1,6 @@
 from config import RED, BLUE, WHITE, END
 
-def draw_flag():
+def draw_flag() -> None:
     strip_length, flag_length = 7, 5
 
     flag = []

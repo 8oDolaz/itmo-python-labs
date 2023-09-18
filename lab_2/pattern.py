@@ -2,7 +2,7 @@ from config import WHITE, BLACK, END
 
 import argparse
 
-def draw_pattern(size=3):
+def draw_pattern(size: int = 3) -> None:
     colors = [WHITE, BLACK]
 
     pattern = []
