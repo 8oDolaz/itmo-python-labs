@@ -82,10 +82,10 @@ def main():
     additional_mem_table = get_memory_table(items, additional_task_volume)
     total_items_points = sum(i.points for i in items)
 
-    print(f'Дополнительное задание:')
+    print(f'-------Дополнительное задание-------')
     print(f'Построим таблицу памяти для вместителньости рюкзака 7. Получим следующее:')
     print(memory_table_repr(additional_mem_table), '\n')
-    print(f'Итоговые очки выживания {2*additional_mem_table[-1][-1] + start_points - total_items_points}')
+    print(f'Итоговые очки выживания: {2*additional_mem_table[-1][-1] + start_points - total_items_points}')
     print(f'Значит, для рюкзака размера 7 ячеек нельзя упаковать предметы так, чтобы Том выжил')
 
 if __name__ == '__main__':

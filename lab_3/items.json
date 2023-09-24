@@ -1,74 +1,74 @@
 [
-    {
-      "name": "винтовка",
-      "short_name": "в",
-      "points": 25,
-      "size": 3
-    },
-    {
-      "name": "пистолет",
-      "short_name": "п",
-      "points": 15,
-      "size": 2
-    },
-    {
-      "name": "боекомплект",
-      "short_name": "б",
-      "points": 15,
-      "size": 2
-    },
-    {
-      "name": "аптечка",
-      "short_name": "а",
-      "points": 20,
-      "size": 2
-    },
-    {
-      "name": "ингалятор",
-      "short_name": "и",
-      "points": 5,
-      "size": 1
-    },
-    {
-      "name": "нож",
-      "short_name": "н",
-      "points": 15,
-      "size": 1
-    },
-    {
-      "name": "топор",
-      "short_name": "т",
-      "points": 20,
-      "size": 3
-    },
-    {
-      "name": "оберег",
-      "short_name": "о",
-      "points": 25,
-      "size": 1
-    },
-    {
-      "name": "фляжка",
-      "short_name": "ф",
-      "points": 15,
-      "size": 1
-    },
-    {
-      "name": "еда",
-      "short_name": "к",
-      "points": 20,
-      "size": 2
-    },
-    {
-      "name": "арбалет",
-      "short_name": "р",
-      "points": 20,
-      "size": 2
-    },
-    {
-      "name": "антидот",
-      "short_name": "д",
-      "points": 10,
-      "size": 1
-    }
+  {
+    "name": "винтовка",
+    "short_name": "в",
+    "points": 25,
+    "size": 3
+  },
+  {
+    "name": "пистолет",
+    "short_name": "п",
+    "points": 15,
+    "size": 2
+  },
+  {
+    "name": "боекомплект",
+    "short_name": "б",
+    "points": 15,
+    "size": 2
+  },
+  {
+    "name": "аптечка",
+    "short_name": "а",
+    "points": 20,
+    "size": 2
+  },
+  {
+    "name": "ингалятор",
+    "short_name": "и",
+    "points": 5,
+    "size": 1
+  },
+  {
+    "name": "нож",
+    "short_name": "н",
+    "points": 15,
+    "size": 1
+  },
+  {
+    "name": "топор",
+    "short_name": "т",
+    "points": 20,
+    "size": 3
+  },
+  {
+    "name": "оберег",
+    "short_name": "о",
+    "points": 25,
+    "size": 1
+  },
+  {
+    "name": "фляжка",
+    "short_name": "ф",
+    "points": 15,
+    "size": 1
+  },
+  {
+    "name": "еда",
+    "short_name": "к",
+    "points": 20,
+    "size": 2
+  },
+  {
+    "name": "арбалет",
+    "short_name": "р",
+    "points": 20,
+    "size": 2
+  },
+  {
+    "name": "антидот",
+    "short_name": "д",
+    "points": 10,
+    "size": 1
+  }
 ]
