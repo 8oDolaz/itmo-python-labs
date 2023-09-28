@@ -1,0 +1,75 @@
+There is total of 51 of Rick and Morty episodes. First episode came out December 2, 2013
+
+No --title flag
+{
+  "id": 1,
+  "name": "Pilot",
+  "air_date": "December 2, 2013",
+  "episode": "S01E01",
+  "characters": [
+    {
+      "id": 1,
+      "name": "Rick Sanchez",
+      "species": "Human"
+    },
+    {
+      "id": 2,
+      "name": "Morty Smith",
+      "species": "Human"
+    },
+    {
+      "id": 35,
+      "name": "Bepisian",
+      "species": "Alien"
+    },
+    {
+      "id": 38,
+      "name": "Beth Smith",
+      "species": "Human"
+    },
+    {
+      "id": 62,
+      "name": "Canklanker Thom",
+      "species": "Alien"
+    }
+  ],
+  "url": "https://rickandmortyapi.com/api/episode/1",
+  "created": "2017-11-10T12:56:33.798Z"
+}
+
+--title flag: minutes
+{
+  "id": 8,
+  "name": "Rixty Minutes",
+  "air_date": "March 17, 2014",
+  "episode": "S01E08",
+  "characters": [
+    {
+      "id": 1,
+      "name": "Rick Sanchez",
+      "species": "Human"
+    },
+    {
+      "id": 2,
+      "name": "Morty Smith",
+      "species": "Human"
+    },
+    {
+      "id": 3,
+      "name": "Summer Smith",
+      "species": "Human"
+    },
+    {
+      "id": 4,
+      "name": "Beth Smith",
+      "species": "Human"
+    },
+    {
+      "id": 5,
+      "name": "Jerry Smith",
+      "species": "Human"
+    }
+  ],
+  "url": "https://rickandmortyapi.com/api/episode/8",
+  "created": "2017-11-10T12:56:34.543Z"
+}
