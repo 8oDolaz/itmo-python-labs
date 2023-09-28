@@ -1,0 +1,6 @@
+venv/
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+
+lab_5/task_2/weather_api_key.txt
