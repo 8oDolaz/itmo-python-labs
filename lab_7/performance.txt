@@ -1,0 +1,3 @@
+Array generated in 0.543 second
+Numpy multiplied all elemts of array in 0.001 seconds
+Python for loop did it in 74.573 seconds
