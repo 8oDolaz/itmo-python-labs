@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_form %}
+
+{% block title %}
+Editor
+{% endblock %}
+
+{% block content %}
+
+<h1>{{ action }}</h1>
+    <form action="{{ form_action }}" method="{{ method | d("POST") }}">
+        {{ render_form(form) }}
+    </form>
+{% endblock %}

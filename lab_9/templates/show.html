@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ note.title }}
+{% endblock %}
+
+{% block content %}
+    <p class="display-1">{{ note.title }}</p>
+    <h2>{% for tag in note.tag%}
+        {{ tag.text }}
+    {% endfor %}</h2>
+    <h3>{{ note.text }}</h3>
+{% endblock %}
